@@ -7,7 +7,7 @@ pipeline {
 
     environment {
         AWS_CREDENTIALS_ID = 'aws_credentials' // Replace with your AWS credentials ID in Jenkins
-        GITHUB_REPO = 'https://github.com/Mohit722/SonarQube-AWS-Terraform.git' // Replace with your repository
+        GITHUB_REPO = 'https://github.com/Mohit722/ansible-infra-setup-jenkins-terraform.git' // Replace with your repository
     }
 
     stages {

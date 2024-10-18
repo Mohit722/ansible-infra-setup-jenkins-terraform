@@ -11,6 +11,12 @@ pipeline {
     }
 
     stages {
+
+        stage('Clean Workspace') {
+            steps {
+                cleanWs()  // Clean the workspace to remove previous files
+            }
+        }
         
         stage('Setup AWS Credentials') {
             steps {
